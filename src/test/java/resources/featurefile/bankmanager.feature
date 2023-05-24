@@ -9,9 +9,9 @@ Feature: Bank Manager
   @smoke
   Scenario:   I should add Customer Successfully
     When      I should click on Add Customer tab
-    And       I Should enter first name "Rashang"
-    And       I should enter last name"Soni"
-    And       I should  Enter post code "ha2 8qa"
+    And       I Should enter first name "Sandip"
+    And       I should enter last name"Patel"
+    And       I should  Enter post code "WD19 4LD"
     Then      I click on 'Add Customer' Button
     And       I should verify message 'Customer added successfully'
     Then      I click 'ok' on popup
